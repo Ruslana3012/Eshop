@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost/eshop
+    username: postgres
+    password: vetabe
+  flyway:
+    baseline-on-migrate: true
+
